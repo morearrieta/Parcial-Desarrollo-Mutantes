@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.Parcial.Backend.ParcialBackendApplicationTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-11-03T00:58:26" hostname="LAPTOP-MORENA" time="0.002">
+  <properties/>
+  <testcase name="initializationError" classname="com.example.Parcial.Backend.ParcialBackendApplicationTests" time="0.002">
+    <failure message="java.lang.NoSuchMethodError: 'org.junit.jupiter.api.extension.ExecutableInvoker org.junit.jupiter.api.extension.ExtensionContext.getExecutableInvoker()'" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: 'org.junit.jupiter.api.extension.ExecutableInvoker org.junit.jupiter.api.extension.ExtensionContext.getExecutableInvoker()'
+	at org.springframework.test.context.junit.jupiter.SpringExtension.registerMethodInvoker(SpringExtension.java:381)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.beforeAll(SpringExtension.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	Suppressed: java.lang.NoSuchMethodError: 'org.junit.jupiter.api.extension.ExecutableInvoker org.junit.jupiter.api.extension.ExtensionContext.getExecutableInvoker()'
+		at org.springframework.test.context.junit.jupiter.SpringExtension.registerMethodInvoker(SpringExtension.java:381)
+		at org.springframework.test.context.junit.jupiter.SpringExtension.afterAll(SpringExtension.java:143)
+		at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+		... 1 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[21:58:25.919 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.Parcial.Backend.ParcialBackendApplicationTests]: ParcialBackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:58:26.233 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.Parcial.Backend.ParcialBackendApplication for test class com.example.Parcial.Backend.ParcialBackendApplicationTests
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
